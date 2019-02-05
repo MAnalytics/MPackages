@@ -1,4 +1,4 @@
-# MonsPackages
+# MPackages
 This repo contains a list of packages that I manage
 
 This repo contains the following packages:
