@@ -1,11 +1,9 @@
 
-
-#' Function to assign alphabetic labels to numeric cluster IDs
+#Function to assign alphabetic labels to numeric cluster IDs
 #' @param x A vector of numeric cluster ids
 #' @return clust_num
-#' @examples clusterAlpha(sample(1:30, 50, replace = TRUE))
 #' @export
-clusterAlpha <- function(x){
+NumToAlpha <- function(x){
   combind_A <- LETTERS
   combind <-  combn(LETTERS, m=2, sep="")# combind[1:2,]
   list_Letters <- NULL
